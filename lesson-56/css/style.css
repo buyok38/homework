@@ -1,0 +1,36 @@
+body {
+    background: rgb(39, 38, 38);
+    color: aliceblue;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    top: 50px;
+}
+
+.title::before,
+.title::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: #fff 5px solid;
+}
+
+.title::before {
+    background: rgb(204, 63, 63);
+    transform: translate(-150px, -20px);
+}
+.title::after{
+    background: #2850d4;
+    transform: translate(55px, -20px);
+}
