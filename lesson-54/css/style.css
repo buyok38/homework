@@ -8,24 +8,23 @@ body {
     font-weight: 500;
     color: #fff;
 }
-.block{
-    position: fixed;
-    right: 50px;
-    height: 100px;
-}
+
 .rectangle {
-    left: 50%;
-    bottom: 100px;
-    border-radius: 10px;
-    width: 600px;
-    min-width: 100px;
     background: #fff;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    min-height: 100px;
+    border-radius: 10px;
 }
 
-.circle{
-    left: 55%;
-    bottom: 150px;
-    width: 100px;
+.rectangle__circle{
+    background: rgb(230, 50, 50);
     border-radius: 50%;
-    background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
 }
